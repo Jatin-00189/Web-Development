@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            padding: 20px 15px 20px 15px;
+            box-sizing: border-box;
+            background-color: cadetblue;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        .container{
+            margin: 100px;
+            padding: 15px 20px 15px 20px;
+            border-radius: 6px;
+            border: 1px solid red;
+            
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"]{
+            border-radius: 5px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        input[type="number"]{
+            margin-left: 32px;
+        }
+        input[type="password"]{
+            margin-left: 8px;
+        }
+        input[type="text"]{
+            margin-left: 5px;
+        }
+        p{
+            color: rgb(17, 21, 246);
+        }
+        .login{
+            color:darkgreen;
+        }
+        .main{
+            text-align: center;
+            color:darkblue
+        }
+        .submit{
+            cursor: pointer;
+            background-color:chartreuse;
+            color: black;
+            border-radius: 6px;
+            border-style: none;
+            width: 53px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            margin-left: 1px;
+            margin-right: 3px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 class="main">Login Here</h1>
+
+    <form action="#" method="get" class="container">
+        
+        <h1 class="login">Login</h1>
+
+        <p>
+            Username <input type="text" id="username" name=username class="username" placeholder="Username">
+        </p>
+        
+        <p>
+            Password <input type="password" name="password" id="password" class="password" placeholder="Password">
+        </p>
+        
+        <p>
+            Mobile   <input type="number" name="mobile" id="mobile" placeholder="+91121212209" class="mobile">
+        </p>
+        <p class="submit">
+            <input type="submit" class="submit" name="submit" value="Login">
+        </p>
+
+
+
+    </form>
+</body>
+</html>
