@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="home.html" target="_blank" id="HOME" class="Home">Home</a>
+
+    <form action="" method="get" class="container">
+        <h1>Payment Form</h1>
+        <h3>Contact Information</h1>
+        <h5>Required Fields are followed by *</h5>
+
+        <div class="same">
+            <label for="name">Name</label>&nbsp;&nbsp;<input type="text" required id="Fame" name="FName">
+        </div>
+        <br>
+
+        <div class="same">Last Name : <input type="text" name="LName" id="lname"></div>
+        <br>
+
+        <div class="same">
+            Address : 
+            <textarea cols="100" rows="8" required></textarea>
+        </div>
+        <br>
+
+        <p><p>Select your gender</p>
+            <select name="Gender" id="Gender" class="same">
+                <option value="">--Select your gender--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </p>
+
+        <br>
+
+        <div class="same">
+            Email* : <input type="email" required name="Email" id="Email">
+        </div>
+
+        <br>
+        <div class="same">
+            Pincode* : <input type="number" name="Pincode" id="Pincode" required>
+        </div>
+
+        <br>
+<hr>
+        <h3>Payment Information</h1>
+        <br>
+        <div class="same">
+            Card Type:
+            <select name="Card_type" id="Card_type">
+                <option value="">--Select your card--</option>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Credit Card">Credit</option>
+            </select>
+        </div>
+        <br>
+        <div class="same">
+            Card Number : <input type="number" name="card_number" id="card_number">
+        </div>
+        <br>
+        <div class="same">
+            Expiration Date : 
+            <input type="date" required name="Expiration_date" id="Expiration_date">
+        </div>
+        <br>
+        <div class="same">
+            Cvv :
+            <input type="number" name="cvv" id="cvv">
+        </div>
+        <br>
+        <div class="same">
+            <input type="submit" name="submit" id="submit" required value="Paynow">
+        </div>
+
+</body>
+</html>
